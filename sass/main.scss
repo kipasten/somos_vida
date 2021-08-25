@@ -1,44 +1,43 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-$primary: #6F9F50;
-$light: #CCE2E2;
+$primary: #6f9f50;
+$light: #cce2e2;
 $dark: #5e8248;
 
 .logo {
-    border: 1px solid black;
-    border-radius: 100%
+  border: 1px solid black;
+  border-radius: 100%;
 }
 
 .header-logo {
-    max-width: 10rem;
+  max-width: 10rem;
 }
 
 .footer-logo {
-    max-width: 5rem;
+  max-width: 5rem;
 }
 
 .spacer {
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .layer1 {
-    aspect-ratio: 900/200;
-    background-image: url('../assets/layer1.svg');
+  aspect-ratio: 900/200;
+  background-image: url("../assets/layer1.svg");
 }
 
 .layer2 {
-    aspect-ratio: 900/100;
-    background-image: url('../assets/layer2.svg')
+  aspect-ratio: 900/100;
+  background-image: url("../assets/layer2.svg");
 }
 
-.Mont {
-    font-family: 'Montserrat', sans-serif;
-    font-size: large;
-}
+$font-family-sans-serif: system-ui, -apple-system, "Montserrat", Roboto,
+  "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 // Import bootstrap
-@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
