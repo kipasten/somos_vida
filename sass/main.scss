@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 $primary: #6F9F50;
 $light: #CCE2E2;
@@ -32,6 +33,11 @@ $dark: #5e8248;
 .layer2 {
     aspect-ratio: 900/100;
     background-image: url('../assets/layer2.svg')
+}
+
+.Mont {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
 }
 
 // Import bootstrap
