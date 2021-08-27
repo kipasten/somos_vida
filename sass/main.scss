@@ -6,6 +6,9 @@ $secondary: #d28f34;
 $light: #cce2e2;
 $dark: #5e8248;
 
+$thumbnail-bg: $secondary;
+$thumbnail-border-color: $secondary;
+
 .logo {
   border: 1px solid black;
   border-radius: 100%;
@@ -17,6 +20,15 @@ $dark: #5e8248;
 
 .footer-logo {
   max-width: 5rem;
+}
+
+.bg-index {
+  background: rgb(111, 159, 80);
+  background: linear-gradient(
+    0deg,
+    rgba(111, 159, 80, 1) 50%,
+    rgba(210, 143, 52, 1) 100%
+  );
 }
 
 .spacer {
