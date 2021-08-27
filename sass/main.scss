@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 $primary: #6f9f50;
+$secondary: #d28f34;
 $light: #cce2e2;
 $dark: #5e8248;
 
@@ -29,12 +30,18 @@ $dark: #5e8248;
   aspect-ratio: 900/200;
   background-image: url("../assets/layer1.svg");
 }
-
 .layer2 {
   aspect-ratio: 900/100;
   background-image: url("../assets/layer2.svg");
 }
-
+.layer3 {
+  aspect-ratio: 900/100;
+  background-image: url("../assets/layer3.svg");
+}
+.layer4 {
+  aspect-ratio: 900/100;
+  background-image: url("../assets/layer4.svg");
+}
 $font-family-sans-serif: system-ui, -apple-system, "Montserrat", Roboto,
   "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
