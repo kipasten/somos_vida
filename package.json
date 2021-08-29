@@ -4,7 +4,8 @@
   "description": "Pagina web estatica para somos vida",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "gulp sass"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,9 @@
     "bootstrap-icons": "^1.5.0",
     "bootstrap-sass": "^3.4.1",
     "gulp": "^4.0.2",
-    "gulp-sass": "^5.0.0"
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.38.2"
   }
 }
