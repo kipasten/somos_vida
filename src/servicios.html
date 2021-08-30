@@ -6,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css/main.min.css" />
+  <link rel="shortcut icon" href="../assets/logo.png" type="image/x-icon">
   <title>Bienvenido</title>
 </head>
 
-<body>
+<body class='bg-light'>
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
-    <div class="container">
+    <div class="container d-flex">
       <img class="img-fluid navbar-brand" src="../assets/logo.png" alt="logo, somos vida" style="width: 100px" />
       <a class="navbar-brand" href="../index.html">Somos Vida</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -35,21 +36,19 @@
           </li>
         </ul>
       </div>
+      <h1 class="display-4 fw-bold text-white">Nuestros planes</h1>
     </div>
   </nav>
-  <div class="container">
-    <h1 class="display-4">Nuestros planes</h1>
-  </div>
 
   <div class="container">
     <section class="my-3">
       <h3 class="display-5 text-center">Acompañamiento</h3>
       <div class="row d-flex align-items-center">
-        <div class="col">
+        <div class="col-sm-6 col-lg-4">
           <img src="../assets\fotos\Servicios - Acompanamiento.JPG" alt="mujer haciendo jardinería" class="img-fluid" />
         </div>
 
-        <div class="col">
+        <div class="col-sm-6 col-lg-4">
           <p>
             Buscamos sacar de la cotideaneidad a nuestros clientes y realizar en
             conjunto distintas actividades que permitan desarrollar habilidades
@@ -59,7 +58,7 @@
           </p>
         </div>
 
-        <div class="col d-none d-md-block">
+        <div class="col d-none d-lg-block">
           <ul>
             <li class="lead">Juegos de mesa</li>
             <li class="lead">Practicar hobbies</li>
@@ -157,7 +156,7 @@
       </div>
     </footer>
   </section>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 
 </html>
