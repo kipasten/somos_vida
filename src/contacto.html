@@ -11,7 +11,7 @@
   <title>Bienvenido</title>
 </head>
 
-<body>
+<body class='bg-light'>
 
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
@@ -34,42 +34,50 @@
             <a class="nav-link" href="sobre_nosotros.html">Quienes somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="contacto.html">Contacto</a>
+            <a class="nav-link active" href="contacto.html">Contacto</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <div class="spacer layer5"></div>
+
 
   <div class="container">
     <h2>Contáctanos</h2>
-    <div class="container">
-      <div class="row justify-content-start">
-        <div class="col-1 col-md-auto">
-          <img src="../node_modules/bootstrap-icons/icons/instagram.svg" alt="instagram">
+      <div class="row">
+        <div class="col-md-6 d-flex flex-column justify-content-evenly">
+          <p>
+            Si tienes alguna duda con nuestros servicios, sugerencias o cualquier
+            razon para contactarnos, puedes hacerlo en las siguientes redes sociales
+            al igual que por nuestro e-mail.
+          </p>
+          <p>Atenderemos tus consultas con mucho gusto!</p>
+          <div class='d-flex flex-row'>
+            <img src="../node_modules/bootstrap-icons/icons/instagram.svg" alt="instagram">
+            <a href="https://www.instagram.com/somos.vida_/" class='mx-3'>
+              <h3>Somos.vida</h4>
+            </a>
+          </div>
+          <div class='d-flex flex-row'>
+            <img src="../node_modules/bootstrap-icons/icons/facebook.svg" alt="Facebook" />
+            <a href="https://www.facebook.com/somos.vida.ccp"  class='mx-3'>
+              <h3>Somos vida</h4>
+            </a>
+          </div>
+          <div class='d-flex flex-row'>
+            <img src="../node_modules/bootstrap-icons/icons/envelope.svg" alt="Mail" />
+            <h3 class='mx-3'>somosvidaccp@gmail.com</h4>
+          </div>
         </div>
-        <div class="col-5"><a href="https://www.instagram.com/somos.vida_/">
-            <h4>Somos.vida</h4>
-          </a></div>
-      </div>
-      <div class="row justify-content-start">
-        <div class="col-1 col-md-auto"><img src="../node_modules/bootstrap-icons/icons/facebook.svg" alt="Facebook" />
+        <div class="col-md-6 d-flex justify-content-center">
+          <img src="../assets/logo.png" alt="Logo, Somos vida" class="fluid logo" style="max-width: 20rem;">
         </div>
-        <div class="col-5"><a href="https://www.facebook.com/somos.vida.ccp" class="link">
-            <h4>Somos vida</h4>
-          </a></div>
-
       </div>
-      <div class="row justify-content-start">
-        <div class="col-md-auto"><img src="../node_modules/bootstrap-icons/icons/envelope.svg" alt="Mail" />
-        </div>
-        <div class="col-5"><a href="" class="link">
-            <h4>somosvidaccp@gmail.com</h4>
-          </a></div>
-      </div>
-    </div>
-
   </div>
+
+  <div class="spacer layer2"></div>
+
   <section class="container-fluid bg-dark">
     <footer class="container pt-3 ">
       <div class="row">
